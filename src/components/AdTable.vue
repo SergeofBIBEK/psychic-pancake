@@ -43,7 +43,7 @@ export default {
   top: 5px;
 }
 
-/deep/ .pagination {
+/deep/ .pagination.pagination {
   position: relative;
   top: -90px;
 
