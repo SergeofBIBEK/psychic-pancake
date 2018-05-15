@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="haxApp">
 
     <md-field>
       <label for="columns">Show/Hide Columns</label>
@@ -26,8 +26,16 @@ if (window.location.host.includes("adreview.sizmek")) {
   let {AdSearch} = state;
   let {ads, scans} = AdSearch;
 
+  console.log("State Object", state);
+  console.log("Scans Object", scans);
+  console.log("Ads Object", ads);
+
   adData = ads.toJS();
   scanData = scans.toJS();
+
+  console.log("adData", adData);
+  console.log("scanData", scanData);
+
 }
 
 export default {
@@ -238,6 +246,10 @@ export default {
 <style lang="scss">
 .md-field {
   max-width: 200px;
+}
+
+.haxApp {
+  padding: 5px;
 }
 
 // Import Bulma's core

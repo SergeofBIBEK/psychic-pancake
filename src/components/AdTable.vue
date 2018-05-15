@@ -1,8 +1,28 @@
 <template>
   <div>
-    <b-table class="md-accent" :data="ads.data" :columns="ads.columns" :checked-rows.sync="checkedRows" checkable :paginated="perPage !== 'all'" :per-page="perPage" :narrowed="true" >
+    <b-table class="md-accent" :data="ads.data" :checked-rows.sync="checkedRows" checkable :paginated="perPage !== 'all'" :per-page="perPage" :narrowed="true" >
 
-      <template slot="footer">
+      <template slot-scope="props">
+        <b-table-column v-for="(column, index) in ads.columns" :field="column.field" :label="column.label" :sortable="column.sortable" :numeric="column.numeric" :visible="column.visible" :key="index">
+
+          <b-tag v-if="column.field === 'clarity' || column.field === 'riskiq'" :class=" props.row[column.field] === 'Success' ? 'is-success' : props.row[column.field].includes('Failed') ? 'is-danger' : 'is-warning'">{{ props.row[column.field] }}</b-tag>
+
+          <b-tag v-else-if="isAXX(column.field)" :class="props.row[column.field] === 'Reaudit' || props.row[column.field] === 'New' || props.row[column.field] === 'Unknown' ? 'is-danger' : 'is-success'">{{ props.row[column.field] }}</b-tag>
+
+          <b-tag v-else-if="column.field === 'subnetwork'">{{ props.row[column.field] }}</b-tag>
+          
+          <md-button class="md-dense md-raised md-primary" v-else-if="column.field ==='preview'">Preview</md-button>
+          
+          <a v-else-if="column.field === 'landingPage'" :href="props.row[column.field]">{{props.row[column.field]}}</a>
+
+          <a v-else-if="column.field === 'id'" :href="`//www.sizmek.com/${props.row[column.field]}`">{{props.row[column.field]}}</a>
+          
+          <b-tag v-else>{{ props.row[column.field] }}</b-tag>
+        </b-table-column>
+      </template>
+
+
+      <template slot="bottom-left">
         <div>
           <md-field class="perPage">
             <label for="perPage">Ads Per Page</label>
@@ -33,6 +53,11 @@ export default {
       checkedRows: [],
       perPage: 5
     };
+  },
+  methods: {
+    isAXX(value) {
+      return /adx|apn/i.test(value);
+    }
   }
 };
 </script>
@@ -43,12 +68,14 @@ export default {
   top: 5px;
 }
 
-/deep/ .pagination.pagination {
-  position: relative;
-  top: -90px;
-
-  a {
+/deep/ { 
+  .pagination.pagination a {
     color: rgba(0, 0, 0, 0.8);
   }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
 }
 </style>
