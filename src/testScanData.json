@@ -1,0 +1,219 @@
+{
+  "data": {
+    "3794657": {
+      "clarity": {
+        "destinationUrl": "",
+        "issuesName": "",
+        "companyName": "Las Vegas Convention and Visitors Center_NCM",
+        "harReport":
+          "https://www.confiant.com/har_report?ti=43b3403dd9f431287840540d237c012a&raw=1",
+        "adName":
+          "NCM - AO, Near (5/18/18-6/21/18) - Cinema Accelerator Cross Platform Video Package, MOBILE - 1x1",
+        "tagInstance": "43b3403dd9f431287840540d237c012a",
+        "logTime": "2018-05-10T12:25:22.00Z",
+        "securityScore": "0",
+        "status": "Response Received",
+        "versionId": "112191135",
+        "companyId": "35068",
+        "id": 1618943,
+        "issueValues": "",
+        "securityDescription": "",
+        "resultObject":
+          "{\"destinations\":[{\"url\":\"\",\"security\":{\"status\":false,\"category\":false},\"iab_categories\":{\"tier1\":{\"code\":false,\"name\":false},\"tier2\":{\"code\":false,\"name\":false}},\"brand\":false,\"redirections\":[]}],\"creatives\":[],\"specs\":{\"inject_ads\":false,\"duration\":20,\"anim\":6,\"fps\":7,\"auto_video\":true,\"in_banner_video\":false,\"width\":480,\"height\":378,\"creative_type\":\"HTML5\",\"flash_cookies\":[],\"text\":{\"text_ad\":false}},\"pixels\":[{\"domain\":\"entitlements.jwplayer.com\",\"name\":\"\",\"security\":false},{\"domain\":\"jwpltx.com\",\"name\":\"\",\"security\":false},{\"domain\":\"content.jwplatform.com\",\"name\":\"\",\"security\":false},{\"domain\":\"ssl.p.jwpcdn.com\",\"name\":\"JWPlayer\",\"security\":false}],\"external_resources\":[],\"security\":{\"score\":0},\"ssl\":{\"is_ssl\":false,\"errors\":false},\"wasm_urls\":null,\"network_load\":{\"initial\":{\"total\":9.3,\"html\":9.3,\"video\":0,\"other\":0},\"polite\":{\"total\":106.1,\"javascript\":67.6,\"other\":35.5,\"video\":2.9}},\"tagname\":\"\",\"tag_id\":\"913443a7afd2\",\"taginstance\":\"43b3403dd9f431287840540d237c012a\",\"screenshot\":\"https://confiant-assets.s3.amazonaws.com/2018-05/screenshot/43b3403dd9f431287840540d237c012a.gif\",\"screenshot_filmstrip\":\"https://confiant-assets.s3.amazonaws.com/2018-05/filmstrip/43b3403dd9f431287840540d237c012a.jpg\",\"geo\":{\"city\":null,\"region\":null,\"geo_type\":null,\"timezone\":null,\"country_code\":null},\"issues\":[],\"status\":\"OK\",\"har_report\":\"https://www.confiant.com/har_report?ti=43b3403dd9f431287840540d237c012a&raw=1\"}",
+        "adId": "3794657"
+      },
+      "riskIQ": {
+        "id": 3696191,
+        "basicInfo": {
+          "adId": 3794657,
+          "adName":
+            "NCM - AO, Near (5/18/18-6/21/18) - Cinema Accelerator Cross Platform Video Package, MOBILE - 1x1",
+          "companyName": "Las Vegas Convention and Visitors Center_NCM",
+          "companyId": "35068",
+          "md5": "44c9f0339b4412d21a7957470311af60",
+          "resultObject":
+            "{\"md5\":\"27dfd35678133773a2b0613a45ca2f2e\",\"internalID\":295790684974097184,\"submitDate\":\"2018-05-14T08:09:55.000-0700\",\"versionID\":\"2018-05-14_295790684974097184\",\"batch\":\"api_457a43491023bfa2\",\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"ip\":\"93.62.110.155\",\"country\":\"IT\",\"projectName\":\"Click Through\",\"link\":\"https://app.riskiq.net/a/ai/2018-05-14_295790684974097184/457a43491023bfa2?_sg=YlZPKgbXFLFQRmMDb3Qpbw%3D%3D\",\"creativeKey\":\"2018-05-14_295789081646865159\",\"fields\":[{\"name\":\"description\"},{\"name\":\"clickThrough\",\"value\":\"clickThrough\"}],\"scores\":{\"adultGlobal\":0,\"browserExtension\":0,\"drivebybinary\":0,\"gamblingGlobal\":0,\"heavyAd\":0,\"illegalDrugs\":0,\"jsAlert\":0,\"liquorGlobal\":0,\"mobileMarket\":0,\"nakedIP\":0,\"pharmaGlobal\":0,\"scarewareTerms\":0,\"suspiciousDomains\":0,\"timeout\":0,\"tobaccoGlobal\":0,\"weaponsGlobal\":0},\"reviewCode\":\"New\",\"crawlData\":{\"crawl\":{\"id\":7499815404,\"guid\":\"07e54440-ad75-4dd2-8572-6a11b60f02a1\",\"startDate\":\"2018-05-14T08:11:50.000-0700\",\"pages\":1,\"frontierURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"metro\":{\"id\":65},\"projectID\":32215,\"browserType\":\"Chrome 41.0.2228.0 Windows\"},\"pageGuid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"pageFailureCount\":0,\"finalURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"finalIP\":\"93.62.110.155\",\"finalCountry\":\"IT\",\"finalLanguage\":\"it\",\"snapshotURL\":\"https://sf.riskiq.net/snapshot/basic?crawlGuid=07e54440-ad75-4dd2-8572-6a11b60f02a1&pageGuid=6b7ab930-867a-4da5-a1f4-e01b4602cd55&url=https%3A%2F%2Fwww.grisbi.it%2Fit%3Futm_source%3Dweb%26utm_medium%3Dadv%26utm_campaign%3Dpreroll-spot-summer&force=false\",\"crawlInspectionResults\":[]},\"classification\":{\"knownProfile\":false,\"analyzeTimestamp\":\"2018-05-14T08:15:58.000-0700\",\"landingPageDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"finalDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"landingPageHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"finalHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"violations\":{\"driveByMalware\":false,\"userInitiatedMalware\":false,\"phishing\":false,\"spam\":false,\"cloaking\":false,\"alert\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"binary\":false,\"externalApplicationRequest\":false,\"newlyRegisteredDomain\":false,\"newlyObservedHost\":false},\"reputation\":{\"spam\":false,\"phishing\":false,\"rlist\":false},\"malware\":{\"driveBy\":false,\"hasBinaries\":false,\"reputational\":false,\"internallyDetected\":false,\"scam\":false},\"content\":{\"words\":161,\"internalLinks\":33,\"externalLinks\":11,\"linkDomains\":8},\"contentClassification\":{\"scammyScore\":0},\"structure\":{\"frames\":5,\"hiddenFrames\":false,\"cloaking\":false,\"frameCloaking\":false,\"lostReferrer\":false,\"popup\":false,\"rotator\":false,\"alert\":false,\"autoplay\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"inconsistentSslScore\":71,\"iframeDownload\":false},\"trafficQuality\":{\"displayAds\":true,\"contextualAds\":false,\"forcedClick\":false,\"forcedImpression\":false,\"externalProtocol\":false,\"lowQualityAffiliate\":false},\"dependentDomains\":[],\"newlyObservedHosts\":[]},\"creative\":{},\"pageCause\":{\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"guid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"contentType\":\"text/html\",\"contentLength\":9827,\"responseCode\":200,\"cause\":\"parentPage\",\"dependents\":[{\"url\":\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\",\"guid\":\"d9ee25f7-fd5a-41bd-a603-62fb3b1bdcb0\",\"contentType\":\"text/javascript\",\"contentLength\":33576,\"responseCode\":200,\"cause\":\"script.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\",\"dependents\":[{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/summer_caramello_slide_home.jpg\",\"guid\":\"34374d84-256f-4941-bb98-b55c7e26a189\",\"contentType\":\"image/jpeg\",\"contentLength\":0,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/trasparent-slide.png\",\"guid\":\"3e7a8047-21f8-40d8-a881-d025e0798fa7\",\"contentType\":\"image/png\",\"contentLength\":121,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/facebook/facebook_posts.php\",\"guid\":\"a7b5f169-f895-4544-9008-c28318ffc783\",\"contentType\":\"text/html\",\"contentLength\":2109,\"responseCode\":200,\"cause\":\"xmlhttprequest\",\"location\":\"<script type=\"text/javascript\">\n    jQuery(document).ready(function() {\n        jQuery(",
+          "resultUrl":
+            "https://app.riskiq.net/a/ai/2018-05-10_294361530688874170/457a43491023bfa2?_sg=WNuhwMAfMxVLQmDeMgP6gA%3D%3D"
+        },
+        "scoreInfo": {
+          "scoreSuspiciousDomains": "0",
+          "scoreJSalert": "0",
+          "scoreTobacco": "",
+          "scoreWeapons": "",
+          "virusTotalCount": 0,
+          "scoreNakedIP": "0",
+          "scorePorn": "",
+          "scorePharma": "",
+          "scoreIllegalDrugs": "0",
+          "scoreDriveByBinary": "0",
+          "scoreMobileMarket": "0",
+          "scoreBrowser": "0",
+          "scoreLiquor": "",
+          "scoreGambling": "",
+          "scoreHeavyAd": "0",
+          "scoreScarewareTerms": "0"
+        },
+        "extraInfo": {
+          "resourceDomains":
+            "a.rfihub.com,adtags.riskiq.net,p.rfihub.com,20797644p.rfihub.com,cm.g.doubleclick.net,c3.rfihub.net,ad.doubleclick.net",
+          "destinationUrl":
+            "https://ad.doubleclick.net/ddm/trackclk/N5664.152239NCM.COM1/B20513192.220530293;dc_trk_aid=418880232;dc_trk_cid=101202101;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=",
+          "evaluateType": "Creative",
+          "logTime": "2018-05-10T12:30:19.00Z",
+          "status": "Received Object"
+        }
+      },
+      "riskIQLP": {
+        "id": 3696192,
+        "basicInfo": {
+          "adId": 3794657,
+          "adName":
+            "NCM - AO, Near (5/18/18-6/21/18) - Cinema Accelerator Cross Platform Video Package, MOBILE - 1x1",
+          "companyName": "Las Vegas Convention and Visitors Center_NCM",
+          "companyId": "35068",
+          "md5": "1a7957470311af6044c9f0339b4412d2",
+          "resultObject":
+            "{\"md5\":\"27dfd35678133773a2b0613a45ca2f2e\",\"internalID\":295790684974097184,\"submitDate\":\"2018-05-14T08:09:55.000-0700\",\"versionID\":\"2018-05-14_295790684974097184\",\"batch\":\"api_457a43491023bfa2\",\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"ip\":\"93.62.110.155\",\"country\":\"IT\",\"projectName\":\"Click Through\",\"link\":\"https://app.riskiq.net/a/ai/2018-05-14_295790684974097184/457a43491023bfa2?_sg=YlZPKgbXFLFQRmMDb3Qpbw%3D%3D\",\"creativeKey\":\"2018-05-14_295789081646865159\",\"fields\":[{\"name\":\"description\"},{\"name\":\"clickThrough\",\"value\":\"clickThrough\"}],\"scores\":{\"adultGlobal\":0,\"browserExtension\":0,\"drivebybinary\":0,\"gamblingGlobal\":0,\"heavyAd\":0,\"illegalDrugs\":0,\"jsAlert\":0,\"liquorGlobal\":0,\"mobileMarket\":0,\"nakedIP\":0,\"pharmaGlobal\":0,\"scarewareTerms\":0,\"suspiciousDomains\":0,\"timeout\":0,\"tobaccoGlobal\":0,\"weaponsGlobal\":0},\"reviewCode\":\"New\",\"crawlData\":{\"crawl\":{\"id\":7499815404,\"guid\":\"07e54440-ad75-4dd2-8572-6a11b60f02a1\",\"startDate\":\"2018-05-14T08:11:50.000-0700\",\"pages\":1,\"frontierURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"metro\":{\"id\":65},\"projectID\":32215,\"browserType\":\"Chrome 41.0.2228.0 Windows\"},\"pageGuid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"pageFailureCount\":0,\"finalURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"finalIP\":\"93.62.110.155\",\"finalCountry\":\"IT\",\"finalLanguage\":\"it\",\"snapshotURL\":\"https://sf.riskiq.net/snapshot/basic?crawlGuid=07e54440-ad75-4dd2-8572-6a11b60f02a1&pageGuid=6b7ab930-867a-4da5-a1f4-e01b4602cd55&url=https%3A%2F%2Fwww.grisbi.it%2Fit%3Futm_source%3Dweb%26utm_medium%3Dadv%26utm_campaign%3Dpreroll-spot-summer&force=false\",\"crawlInspectionResults\":[]},\"classification\":{\"knownProfile\":false,\"analyzeTimestamp\":\"2018-05-14T08:15:58.000-0700\",\"landingPageDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"finalDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"landingPageHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"finalHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"violations\":{\"driveByMalware\":false,\"userInitiatedMalware\":false,\"phishing\":false,\"spam\":false,\"cloaking\":false,\"alert\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"binary\":false,\"externalApplicationRequest\":false,\"newlyRegisteredDomain\":false,\"newlyObservedHost\":false},\"reputation\":{\"spam\":false,\"phishing\":false,\"rlist\":false},\"malware\":{\"driveBy\":false,\"hasBinaries\":false,\"reputational\":false,\"internallyDetected\":false,\"scam\":false},\"content\":{\"words\":161,\"internalLinks\":33,\"externalLinks\":11,\"linkDomains\":8},\"contentClassification\":{\"scammyScore\":0},\"structure\":{\"frames\":5,\"hiddenFrames\":false,\"cloaking\":false,\"frameCloaking\":false,\"lostReferrer\":false,\"popup\":false,\"rotator\":false,\"alert\":false,\"autoplay\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"inconsistentSslScore\":71,\"iframeDownload\":false},\"trafficQuality\":{\"displayAds\":true,\"contextualAds\":false,\"forcedClick\":false,\"forcedImpression\":false,\"externalProtocol\":false,\"lowQualityAffiliate\":false},\"dependentDomains\":[],\"newlyObservedHosts\":[]},\"creative\":{},\"pageCause\":{\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"guid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"contentType\":\"text/html\",\"contentLength\":9827,\"responseCode\":200,\"cause\":\"parentPage\",\"dependents\":[{\"url\":\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\",\"guid\":\"d9ee25f7-fd5a-41bd-a603-62fb3b1bdcb0\",\"contentType\":\"text/javascript\",\"contentLength\":33576,\"responseCode\":200,\"cause\":\"script.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\",\"dependents\":[{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/summer_caramello_slide_home.jpg\",\"guid\":\"34374d84-256f-4941-bb98-b55c7e26a189\",\"contentType\":\"image/jpeg\",\"contentLength\":0,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/trasparent-slide.png\",\"guid\":\"3e7a8047-21f8-40d8-a881-d025e0798fa7\",\"contentType\":\"image/png\",\"contentLength\":121,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/facebook/facebook_posts.php\",\"guid\":\"a7b5f169-f895-4544-9008-c28318ffc783\",\"contentType\":\"text/html\",\"contentLength\":2109,\"responseCode\":200,\"cause\":\"xmlhttprequest\",\"location\":\"<script type=\"text/javascript\">\n    jQuery(document).ready(function() {\n        jQuery(",
+          "resultUrl":
+            "https://app.riskiq.net/a/ai/2018-05-10_294362557345446340/457a43491023bfa2?_sg=UPaIMJJ0NAJce09fJQt9dw%3D%3D"
+        },
+        "scoreInfo": {
+          "scoreSuspiciousDomains": "0",
+          "scoreJSalert": "0",
+          "scoreTobacco": "",
+          "scoreWeapons": "",
+          "virusTotalCount": 0,
+          "scoreNakedIP": "0",
+          "scorePorn": "",
+          "scorePharma": "",
+          "scoreIllegalDrugs": "0",
+          "scoreDriveByBinary": "0",
+          "scoreMobileMarket": "0",
+          "scoreBrowser": "0",
+          "scoreLiquor": "",
+          "scoreGambling": "",
+          "scoreHeavyAd": "0",
+          "scoreScarewareTerms": "0"
+        },
+        "extraInfo": {
+          "resourceDomains": "",
+          "destinationUrl":
+            "https://ad.doubleclick.net/ddm/trackclk/N5664.152239NCM.COM1/B20513192.220530293;dc_trk_aid=418880232;dc_trk_cid=101202101;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=",
+          "evaluateType": "Landing Page",
+          "logTime": "2018-05-10T12:30:19.00Z",
+          "status": "Received Object"
+        }
+      }
+    },
+    "3794659": {
+      "clarity": {
+        "destinationUrl":
+          "https://ad.doubleclick.net/ddm/trackclk/N5664.152239NCM.COM1/B20513192.220530299;dc_trk_aid=418880232;dc_trk_cid=101202101;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=",
+        "issuesName": "",
+        "companyName": "Las Vegas Convention and Visitors Center_NCM",
+        "harReport":
+          "https://www.confiant.com/har_report?ti=cb4ef5e0ca64904d06366a690b4a6015&raw=1",
+        "adName":
+          "NCM - AO, Near (5/18/18-6/21/18) - Cinema Accelerator Cross Platform Video Package, DESKTOP - 1x1",
+        "tagInstance": "cb4ef5e0ca64904d06366a690b4a6015",
+        "logTime": "2018-05-10T12:35:12.00Z",
+        "securityScore": "0",
+        "status": "Response Received",
+        "versionId": "112191231",
+        "companyId": "35068",
+        "id": 1618953,
+        "issueValues": "",
+        "securityDescription": "",
+        "resultObject":
+          "{\"destinations\":[{\"url\":\"https://ad.doubleclick.net/ddm/trackclk/N5664.152239NCM.COM1/B20513192.220530299;dc_trk_aid=418880232;dc_trk_cid=101202101;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=\",\"security\":{\"status\":1,\"category\":\"Advertising\"},\"iab_categories\":{\"tier1\":{\"code\":\"IAB3\",\"name\":\"Business\"},\"tier2\":{\"code\":\"IAB3-1\",\"name\":\"Advertising\"}},\"brand\":\"doubleclick\",\"popup\":false,\"forceful_redirection\":false,\"redirections\":[]}],\"creatives\":[],\"specs\":{\"inject_ads\":false,\"duration\":20,\"anim\":16,\"fps\":11,\"auto_video\":true,\"in_banner_video\":false,\"width\":480,\"height\":360,\"creative_type\":\"HTML5\",\"flash_cookies\":[],\"text\":{\"text_ad\":false}},\"pixels\":[{\"domain\":\"entitlements.jwplayer.com\",\"name\":\"\",\"security\":false},{\"domain\":\"jwpltx.com\",\"name\":\"\",\"security\":false},{\"domain\":\"invalid\",\"name\":\"\",\"security\":false},{\"domain\":\"c3.rfihub.net\",\"name\":\"Rocket Fuel\",\"security\":false},{\"domain\":\"p.rfihub.com\",\"name\":\"Rocket Fuel\",\"security\":false},{\"domain\":\"a.rfihub.com\",\"name\":\"Rocket Fuel\",\"security\":false},{\"domain\":\"content.jwplatform.com\",\"name\":\"\",\"security\":false},{\"domain\":\"ssl.p.jwpcdn.com\",\"name\":\"JWPlayer\",\"security\":false},{\"domain\":\"www.gstatic.com\",\"name\":\"Google\",\"security\":false},{\"domain\":\"ad.doubleclick.net\",\"name\":\"DoubleClick\",\"security\":false}],\"external_resources\":[{\"url\":\"chrome-extension://invalid/\",\"status\":-1}],\"security\":{\"score\":0},\"ssl\":{\"is_ssl\":false,\"errors\":false},\"wasm_urls\":null,\"network_load\":{\"initial\":{\"total\":41.4,\"html\":11.2,\"javascript\":30.2,\"video\":0,\"other\":0},\"polite\":{\"total\":1807.9,\"other\":35.5,\"javascript\":57.1,\"video\":1715,\"image\":0.2}},\"tagname\":\"\",\"tag_id\":\"ad352d38b128\",\"taginstance\":\"cb4ef5e0ca64904d06366a690b4a6015\",\"screenshot\":\"https://confiant-assets.s3.amazonaws.com/2018-05/screenshot/cb4ef5e0ca64904d06366a690b4a6015.gif\",\"screenshot_filmstrip\":\"https://confiant-assets.s3.amazonaws.com/2018-05/filmstrip/cb4ef5e0ca64904d06366a690b4a6015.jpg\",\"geo\":{\"city\":null,\"region\":null,\"geo_type\":null,\"timezone\":null,\"country_code\":null},\"issues\":[],\"status\":\"OK\",\"har_report\":\"https://www.confiant.com/har_report?ti=cb4ef5e0ca64904d06366a690b4a6015&raw=1\"}",
+        "adId": "3794659"
+      },
+      "riskIQ": {
+        "id": 3696193,
+        "basicInfo": {
+          "adId": 3794659,
+          "adName":
+            "NCM - AO, Near (5/18/18-6/21/18) - Cinema Accelerator Cross Platform Video Package, DESKTOP - 1x1",
+          "companyName": "Las Vegas Convention and Visitors Center_NCM",
+          "companyId": "35068",
+          "md5": "2ca6d61345b24ccecbadc4881306ed9e",
+          "resultObject":
+            "{\"md5\":\"27dfd35678133773a2b0613a45ca2f2e\",\"internalID\":295790684974097184,\"submitDate\":\"2018-05-14T08:09:55.000-0700\",\"versionID\":\"2018-05-14_295790684974097184\",\"batch\":\"api_457a43491023bfa2\",\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"ip\":\"93.62.110.155\",\"country\":\"IT\",\"projectName\":\"Click Through\",\"link\":\"https://app.riskiq.net/a/ai/2018-05-14_295790684974097184/457a43491023bfa2?_sg=YlZPKgbXFLFQRmMDb3Qpbw%3D%3D\",\"creativeKey\":\"2018-05-14_295789081646865159\",\"fields\":[{\"name\":\"description\"},{\"name\":\"clickThrough\",\"value\":\"clickThrough\"}],\"scores\":{\"adultGlobal\":0,\"browserExtension\":0,\"drivebybinary\":0,\"gamblingGlobal\":0,\"heavyAd\":0,\"illegalDrugs\":0,\"jsAlert\":0,\"liquorGlobal\":0,\"mobileMarket\":0,\"nakedIP\":0,\"pharmaGlobal\":0,\"scarewareTerms\":0,\"suspiciousDomains\":0,\"timeout\":0,\"tobaccoGlobal\":0,\"weaponsGlobal\":0},\"reviewCode\":\"New\",\"crawlData\":{\"crawl\":{\"id\":7499815404,\"guid\":\"07e54440-ad75-4dd2-8572-6a11b60f02a1\",\"startDate\":\"2018-05-14T08:11:50.000-0700\",\"pages\":1,\"frontierURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"metro\":{\"id\":65},\"projectID\":32215,\"browserType\":\"Chrome 41.0.2228.0 Windows\"},\"pageGuid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"pageFailureCount\":0,\"finalURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"finalIP\":\"93.62.110.155\",\"finalCountry\":\"IT\",\"finalLanguage\":\"it\",\"snapshotURL\":\"https://sf.riskiq.net/snapshot/basic?crawlGuid=07e54440-ad75-4dd2-8572-6a11b60f02a1&pageGuid=6b7ab930-867a-4da5-a1f4-e01b4602cd55&url=https%3A%2F%2Fwww.grisbi.it%2Fit%3Futm_source%3Dweb%26utm_medium%3Dadv%26utm_campaign%3Dpreroll-spot-summer&force=false\",\"crawlInspectionResults\":[]},\"classification\":{\"knownProfile\":false,\"analyzeTimestamp\":\"2018-05-14T08:15:58.000-0700\",\"landingPageDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"finalDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"landingPageHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"finalHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"violations\":{\"driveByMalware\":false,\"userInitiatedMalware\":false,\"phishing\":false,\"spam\":false,\"cloaking\":false,\"alert\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"binary\":false,\"externalApplicationRequest\":false,\"newlyRegisteredDomain\":false,\"newlyObservedHost\":false},\"reputation\":{\"spam\":false,\"phishing\":false,\"rlist\":false},\"malware\":{\"driveBy\":false,\"hasBinaries\":false,\"reputational\":false,\"internallyDetected\":false,\"scam\":false},\"content\":{\"words\":161,\"internalLinks\":33,\"externalLinks\":11,\"linkDomains\":8},\"contentClassification\":{\"scammyScore\":0},\"structure\":{\"frames\":5,\"hiddenFrames\":false,\"cloaking\":false,\"frameCloaking\":false,\"lostReferrer\":false,\"popup\":false,\"rotator\":false,\"alert\":false,\"autoplay\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"inconsistentSslScore\":71,\"iframeDownload\":false},\"trafficQuality\":{\"displayAds\":true,\"contextualAds\":false,\"forcedClick\":false,\"forcedImpression\":false,\"externalProtocol\":false,\"lowQualityAffiliate\":false},\"dependentDomains\":[],\"newlyObservedHosts\":[]},\"creative\":{},\"pageCause\":{\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"guid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"contentType\":\"text/html\",\"contentLength\":9827,\"responseCode\":200,\"cause\":\"parentPage\",\"dependents\":[{\"url\":\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\",\"guid\":\"d9ee25f7-fd5a-41bd-a603-62fb3b1bdcb0\",\"contentType\":\"text/javascript\",\"contentLength\":33576,\"responseCode\":200,\"cause\":\"script.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\",\"dependents\":[{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/summer_caramello_slide_home.jpg\",\"guid\":\"34374d84-256f-4941-bb98-b55c7e26a189\",\"contentType\":\"image/jpeg\",\"contentLength\":0,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/trasparent-slide.png\",\"guid\":\"3e7a8047-21f8-40d8-a881-d025e0798fa7\",\"contentType\":\"image/png\",\"contentLength\":121,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/facebook/facebook_posts.php\",\"guid\":\"a7b5f169-f895-4544-9008-c28318ffc783\",\"contentType\":\"text/html\",\"contentLength\":2109,\"responseCode\":200,\"cause\":\"xmlhttprequest\",\"location\":\"<script type=\"text/javascript\">\n    jQuery(document).ready(function() {\n        jQuery(",
+          "resultUrl":
+            "https://app.riskiq.net/a/ai/2018-05-10_294361540310610453/457a43491023bfa2?_sg=foSbtdB0XhBeMyuERGS8Aw%3D%3D"
+        },
+        "scoreInfo": {
+          "scoreSuspiciousDomains": "0",
+          "scoreJSalert": "0",
+          "scoreTobacco": "",
+          "scoreWeapons": "",
+          "virusTotalCount": 0,
+          "scoreNakedIP": "0",
+          "scorePorn": "",
+          "scorePharma": "",
+          "scoreIllegalDrugs": "0",
+          "scoreDriveByBinary": "0",
+          "scoreMobileMarket": "0",
+          "scoreBrowser": "0",
+          "scoreLiquor": "",
+          "scoreGambling": "",
+          "scoreHeavyAd": "0",
+          "scoreScarewareTerms": "0"
+        },
+        "extraInfo": {
+          "resourceDomains":
+            "a.rfihub.com,adtags.riskiq.net,p.rfihub.com,20797644p.rfihub.com,cm.g.doubleclick.net,c3.rfihub.net,ad.doubleclick.net",
+          "destinationUrl":
+            "https://ad.doubleclick.net/ddm/trackclk/N5664.152239NCM.COM1/B20513192.220530299;dc_trk_aid=418880232;dc_trk_cid=101202101;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=",
+          "evaluateType": "Creative",
+          "logTime": "2018-05-10T12:30:19.00Z",
+          "status": "Received Object"
+        }
+      },
+      "riskIQLP": {
+        "id": 3696194,
+        "basicInfo": {
+          "adId": 3794659,
+          "adName":
+            "NCM - AO, Near (5/18/18-6/21/18) - Cinema Accelerator Cross Platform Video Package, DESKTOP - 1x1",
+          "companyName": "Las Vegas Convention and Visitors Center_NCM",
+          "companyId": "35068",
+          "md5": "cbadc4881306ed9e2ca6d61345b24cce",
+          "resultObject":
+            "{\"md5\":\"27dfd35678133773a2b0613a45ca2f2e\",\"internalID\":295790684974097184,\"submitDate\":\"2018-05-14T08:09:55.000-0700\",\"versionID\":\"2018-05-14_295790684974097184\",\"batch\":\"api_457a43491023bfa2\",\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"ip\":\"93.62.110.155\",\"country\":\"IT\",\"projectName\":\"Click Through\",\"link\":\"https://app.riskiq.net/a/ai/2018-05-14_295790684974097184/457a43491023bfa2?_sg=YlZPKgbXFLFQRmMDb3Qpbw%3D%3D\",\"creativeKey\":\"2018-05-14_295789081646865159\",\"fields\":[{\"name\":\"description\"},{\"name\":\"clickThrough\",\"value\":\"clickThrough\"}],\"scores\":{\"adultGlobal\":0,\"browserExtension\":0,\"drivebybinary\":0,\"gamblingGlobal\":0,\"heavyAd\":0,\"illegalDrugs\":0,\"jsAlert\":0,\"liquorGlobal\":0,\"mobileMarket\":0,\"nakedIP\":0,\"pharmaGlobal\":0,\"scarewareTerms\":0,\"suspiciousDomains\":0,\"timeout\":0,\"tobaccoGlobal\":0,\"weaponsGlobal\":0},\"reviewCode\":\"New\",\"crawlData\":{\"crawl\":{\"id\":7499815404,\"guid\":\"07e54440-ad75-4dd2-8572-6a11b60f02a1\",\"startDate\":\"2018-05-14T08:11:50.000-0700\",\"pages\":1,\"frontierURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"metro\":{\"id\":65},\"projectID\":32215,\"browserType\":\"Chrome 41.0.2228.0 Windows\"},\"pageGuid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"pageFailureCount\":0,\"finalURL\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"finalIP\":\"93.62.110.155\",\"finalCountry\":\"IT\",\"finalLanguage\":\"it\",\"snapshotURL\":\"https://sf.riskiq.net/snapshot/basic?crawlGuid=07e54440-ad75-4dd2-8572-6a11b60f02a1&pageGuid=6b7ab930-867a-4da5-a1f4-e01b4602cd55&url=https%3A%2F%2Fwww.grisbi.it%2Fit%3Futm_source%3Dweb%26utm_medium%3Dadv%26utm_campaign%3Dpreroll-spot-summer&force=false\",\"crawlInspectionResults\":[]},\"classification\":{\"knownProfile\":false,\"analyzeTimestamp\":\"2018-05-14T08:15:58.000-0700\",\"landingPageDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"finalDomain\":{\"domain\":\"grisbi.it\",\"registered\":\"2007-01-30T16:00:00.000-0800\"},\"landingPageHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"finalHost\":{\"host\":\"www.grisbi.it\",\"firstObserved\":\"2012-11-17T16:10:22.000-0800\"},\"violations\":{\"driveByMalware\":false,\"userInitiatedMalware\":false,\"phishing\":false,\"spam\":false,\"cloaking\":false,\"alert\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"binary\":false,\"externalApplicationRequest\":false,\"newlyRegisteredDomain\":false,\"newlyObservedHost\":false},\"reputation\":{\"spam\":false,\"phishing\":false,\"rlist\":false},\"malware\":{\"driveBy\":false,\"hasBinaries\":false,\"reputational\":false,\"internallyDetected\":false,\"scam\":false},\"content\":{\"words\":161,\"internalLinks\":33,\"externalLinks\":11,\"linkDomains\":8},\"contentClassification\":{\"scammyScore\":0},\"structure\":{\"frames\":5,\"hiddenFrames\":false,\"cloaking\":false,\"frameCloaking\":false,\"lostReferrer\":false,\"popup\":false,\"rotator\":false,\"alert\":false,\"autoplay\":false,\"autoplayAudio\":false,\"autoplayVideo\":false,\"inconsistentSslScore\":71,\"iframeDownload\":false},\"trafficQuality\":{\"displayAds\":true,\"contextualAds\":false,\"forcedClick\":false,\"forcedImpression\":false,\"externalProtocol\":false,\"lowQualityAffiliate\":false},\"dependentDomains\":[],\"newlyObservedHosts\":[]},\"creative\":{},\"pageCause\":{\"url\":\"https://www.grisbi.it/it?utm_source=web&utm_medium=adv&utm_campaign=preroll-spot-summer\",\"guid\":\"6b7ab930-867a-4da5-a1f4-e01b4602cd55\",\"contentType\":\"text/html\",\"contentLength\":9827,\"responseCode\":200,\"cause\":\"parentPage\",\"dependents\":[{\"url\":\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\",\"guid\":\"d9ee25f7-fd5a-41bd-a603-62fb3b1bdcb0\",\"contentType\":\"text/javascript\",\"contentLength\":33576,\"responseCode\":200,\"cause\":\"script.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\",\"dependents\":[{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/summer_caramello_slide_home.jpg\",\"guid\":\"34374d84-256f-4941-bb98-b55c7e26a189\",\"contentType\":\"image/jpeg\",\"contentLength\":0,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/trasparent-slide.png\",\"guid\":\"3e7a8047-21f8-40d8-a881-d025e0798fa7\",\"contentType\":\"image/png\",\"contentLength\":121,\"responseCode\":200,\"cause\":\"img.src\",\"location\":\"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js\"/>\"},{\"url\":\"https://www.grisbi.it/at-teamp/images/grisbi_2017/facebook/facebook_posts.php\",\"guid\":\"a7b5f169-f895-4544-9008-c28318ffc783\",\"contentType\":\"text/html\",\"contentLength\":2109,\"responseCode\":200,\"cause\":\"xmlhttprequest\",\"location\":\"<script type=\"text/javascript\">\n    jQuery(document).ready(function() {\n        jQuery(",
+          "resultUrl":
+            "https://app.riskiq.net/a/ai/2018-05-10_294362583228487832/457a43491023bfa2?_sg=pgRibUhfiKwQHamrKt2v0A%3D%3D"
+        },
+        "scoreInfo": {
+          "scoreSuspiciousDomains": "0",
+          "scoreJSalert": "0",
+          "scoreTobacco": "",
+          "scoreWeapons": "",
+          "virusTotalCount": 0,
+          "scoreNakedIP": "0",
+          "scorePorn": "",
+          "scorePharma": "",
+          "scoreIllegalDrugs": "0",
+          "scoreDriveByBinary": "0",
+          "scoreMobileMarket": "0",
+          "scoreBrowser": "0",
+          "scoreLiquor": "",
+          "scoreGambling": "",
+          "scoreHeavyAd": "0",
+          "scoreScarewareTerms": "0"
+        },
+        "extraInfo": {
+          "resourceDomains": "",
+          "destinationUrl":
+            "https://ad.doubleclick.net/ddm/trackclk/N5664.152239NCM.COM1/B20513192.220530299;dc_trk_aid=418880232;dc_trk_cid=101202101;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=",
+          "evaluateType": "Landing Page",
+          "logTime": "2018-05-10T12:30:19.00Z",
+          "status": "Received Object"
+        }
+      }
+    }
+  },
+  "fetchState": "OK",
+  "fetchError": { "status": null, "errorMsg": "" }
+}

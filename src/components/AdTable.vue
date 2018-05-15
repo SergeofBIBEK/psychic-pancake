@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-table :data="ads.data" :columns="ads.columns" :checked-rows.sync="checkedRows" checkable :paginated="perPage !== 'all'" :per-page="perPage" >
+    <b-table class="md-accent" :data="ads.data" :columns="ads.columns" :checked-rows.sync="checkedRows" checkable :paginated="perPage !== 'all'" :per-page="perPage" :narrowed="true" >
 
       <template slot="footer">
         <div>
@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style style="scss" scoped>
+<style lang="scss" scoped>
 .perPage {
   max-width: 100px;
   top: 5px;
@@ -46,5 +46,9 @@ export default {
 /deep/ .pagination {
   position: relative;
   top: -90px;
+
+  a {
+    color: rgba(0, 0, 0, 0.8);
+  }
 }
 </style>

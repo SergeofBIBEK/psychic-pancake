@@ -16,6 +16,19 @@
 <script>
 import AdTable from "./components/AdTable";
 import fakeData from "./testData.json";
+import fakeScanData from "./testScanData.json";
+
+let adData = fakeData;
+let scanData = fakeScanData;
+
+if (window.location.host.includes("adreview.sizmek")) {
+  let state = document.getElementById('root')._reactRootContainer._internalRoot.current.child.child.child.child.child.stateNode.props.store.getState()
+  let {AdSearch} = state;
+  let {ads, scans} = AdSearch;
+
+  adData = ads.toJS();
+  scanData = scans.toJS();
+}
 
 export default {
   name: "Root",
@@ -24,7 +37,7 @@ export default {
   },
   data() {
     return {
-      ads: this.convertData(fakeData.data),
+      ads: this.convertData(adData.data, scanData),
       visibleColumns: []
     };
   },
@@ -55,18 +68,53 @@ export default {
     ];
   },
   methods: {
-    convertData(originalData) {
+    convertData(originalData, originalScanData) {
       let newData = { data: [], columns: [] };
 
-      originalData.forEach(ad => {
+      originalData.forEach(ad => {  
+        let clarity;
+        let riskiq;
+        if (originalScanData[ad.id]) {    
+          clarity = originalScanData[ad.id].clarity.securityScore;
+          if (clarity === "0") {
+            clarity = "Passed"
+          }
+          else {
+            clarity = "Failed: " + clarity;
+          }
+
+        riskiq = originalScanData[ad.id].riskIQ.scoreInfo;
+
+        riskiq = riskiq.reduce( (total, score) => {
+          let num = parseInt(score);
+          if (isNaN(num)) {
+            num = 0;
+          }
+
+          return total + num;
+        }, 0);
+
+        if (riskiq === 0) {
+          riskiq = "Passed";
+        }
+        else {
+          riskiq = "Failed";
+        }
+
+        }
+        else {
+          clarity = "Scan Data Not Found"
+          riskiq = "Scan Data Not Found"
+        }
+
         let newAd = {
           id: ad.adReviewDataModelAdInfo.advertisementId,
           name: ad.adReviewDataModelAdInfo.name,
           type: ad.adReviewDataModelBasic.adTypeName,
           landingPage: ad.adReviewDataModelBasic.landingUrl,
           preview: "preview", //gonna be a button, need to get info on the url
-          clarity: "??", //don't know what this is.
-          riskiq: "??", //don't know what this is.
+          clarity, //need to verify accuracy somehow
+          riskiq, //need to verify accuracy somehow
           adx: ad.adReviewModelAudit.adxStatus,
           adxSSL: ad.adReviewModelAudit.adxSSLStatus,
           apn: ad.adReviewModelAudit.apnStatus,
@@ -187,8 +235,49 @@ export default {
 };
 </script>
 
-<style style="scss">
+<style lang="scss">
 .md-field {
   max-width: 200px;
 }
+
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+$primary:	#448aff;
+$primary-invert: findColorInvert($primary);
+$info: $blue;
+$info-invert: $blue-invert;
+$success:	$turquoise;
+$success-invert: $turquoise-invert;
+$warning:	$yellow;
+$warning-invert: $yellow-invert;
+$danger: $red;
+$danger-invert: $red-invert;
+$light:	$white-ter;
+$dark: $grey-darker;
+$light-invert: $dark;
+$dark-invert: $light;
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert)
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
 </style>
